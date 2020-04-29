@@ -20,6 +20,8 @@
 		371239170C9B8A261CEB696A /* libPods-themeals-themealsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F1072407BE9D0B246BFB10 /* libPods-themeals-themealsTests.a */; };
 		7770238A4041FF18DF4E3318 /* libPods-themeals.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E22E4EB6090A30DEEF8A0F4 /* libPods-themeals.a */; };
 		CF54AA377D163D2FADC67524 /* libPods-themeals-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA33E3F7D0C4763942F9F0ED /* libPods-themeals-tvOSTests.a */; };
+		F736007A5F114B89B669F570 /* ComicNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7ECF38A89384224ABCB7567 /* ComicNeue-Bold.ttf */; };
+		CA22D607336148CAB9645BF5 /* ComicNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5085D5F54B1640A6AB89D1FC /* ComicNeue-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		F0AE5B8726C382AE907F5CA5 /* Pods-themeals-themealsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themeals-themealsTests.release.xcconfig"; path = "Target Support Files/Pods-themeals-themealsTests/Pods-themeals-themealsTests.release.xcconfig"; sourceTree = "<group>"; };
 		F11329B615A53CF72F5B023A /* Pods-themeals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themeals.debug.xcconfig"; path = "Target Support Files/Pods-themeals/Pods-themeals.debug.xcconfig"; sourceTree = "<group>"; };
 		F804C7E8EA5B01558FEFC136 /* Pods-themeals-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themeals-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-themeals-tvOSTests/Pods-themeals-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7ECF38A89384224ABCB7567 /* ComicNeue-Bold.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Bold.ttf"; path = "../assets/fonts/ComicNeue-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5085D5F54B1640A6AB89D1FC /* ComicNeue-Regular.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Regular.ttf"; path = "../assets/fonts/ComicNeue-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7049BA9DAF9144943FC93B7F /* Pods */,
+				34A7B4DF81424C75A90B8AEB /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +202,16 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		34A7B4DF81424C75A90B8AEB /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D7ECF38A89384224ABCB7567 /* ComicNeue-Bold.ttf */,
+				5085D5F54B1640A6AB89D1FC /* ComicNeue-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -340,6 +355,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F736007A5F114B89B669F570 /* ComicNeue-Bold.ttf in Resources */,
+				CA22D607336148CAB9645BF5 /* ComicNeue-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
